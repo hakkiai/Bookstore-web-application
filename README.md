@@ -34,7 +34,7 @@ A simple web application that allows users to add, view, and delete books from a
 
 
 ### Screenshots
-![[https://github.com/hakkiai/Bookstore-web-application/blob/4f1ed77da61a027024cd347b851390d9e4c19eec/Screenshot%202024-10-04%20124929.png]]
+![image alt](https://github.com/hakkiai/Bookstore-web-application/blob/4f1ed77da61a027024cd347b851390d9e4c19eec/Screenshot%202024-10-04%20124929.png)
 
 
 
