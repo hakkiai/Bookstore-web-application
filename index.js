@@ -7,17 +7,13 @@ import cors from 'cors';
 
 const app = express();
 
-// Middleware for parsing request body
 app.use(express.json());
 
-
-//Middleware for handling CORS POLICY
-// Option 1 : allow all origins with default of cors(*)
 app.use(cors())
-// Option 2 : allow customs origins
+
 
 app.use(cors({
-    origin: 'http://127.0.0.1:5500', // or 'http://localhost:5500' if that's what you're using
+    origin: 'http://127.0.0.1:5500', // or 'http://localhost:5500'
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type'],
 }));
